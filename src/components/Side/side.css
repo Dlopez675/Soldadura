@@ -1,0 +1,56 @@
+/* side.css */
+
+.side-container {
+    background-color: #f8f9fa;
+    /* Fondo claro */
+    padding: 0.8rem 0;
+    border-top: 1px solid #e0e0e0;
+    border-bottom: 1px solid #e0e0e0;
+    font-size: 0.9rem;
+}
+
+.contact-bar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 1.5rem;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 1rem;
+}
+
+.contact-item {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    color: #333;
+    font-weight: 500;
+}
+
+.icon {
+    font-size: 1.1rem;
+    color: #0066cc;
+    /* Color azul para los íconos */
+}
+
+.divider {
+    color: #ccc;
+}
+
+/* Estilos responsivos */
+@media (max-width: 768px) {
+    .contact-bar {
+        flex-direction: column;
+        gap: 0.5rem;
+        align-items: flex-start;
+    }
+
+    .divider {
+        display: none;
+    }
+
+    .contact-item {
+        padding: 0.3rem 0;
+    }
+}
