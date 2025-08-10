@@ -10,15 +10,15 @@ const Side = () => {
         </span>
         <span className="divider">|</span>
         <span className="contact-item">
-          <span className="icon">©</span> (Comercial) +56 9 4917 8389
+          <span className="icon">©</span> (Comercial) +XX X XXXX XXXX
         </span>
         <span className="divider">|</span>
         <span className="contact-item">
-          <span className="icon">后</span> (Reclutamiento) +56 9 4665 7536
+          <span className="icon">后</span> (Reclutamiento) +XX X XXXX XXXX
         </span>
         <span className="divider">|</span>
         <span className="contact-item">
-          <span className="icon">回</span> contacto@incoprovi
+          <span className="icon">回</span> contacto@SOLDADURA.pa
         </span>
       </div>
     </div>

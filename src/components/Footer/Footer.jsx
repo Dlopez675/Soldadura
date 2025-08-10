@@ -1,6 +1,6 @@
 import React from 'react';
 import './footer.css';
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+
 
 const Footer = () => {
   return (
@@ -33,13 +33,13 @@ const Footer = () => {
           <h3 className="footer-title">SÍGUENOS</h3>
           <div className="social-icons">
             <a className="social-icon" target="_blank" rel="noopener noreferrer" href="http://facebook.com">
-              <FontAwesomeIcon icon={faFacebookF} />
+              <i class="fa-brands fa-facebook-f"></i>
             </a>
             <a className="social-icon" target="_blank" rel="noopener noreferrer" href="http://linkedin.com">
-              <FontAwesomeIcon icon={faLinkedinIn} />
+              <i class="fa-brands fa-linkedin-in"></i>
             </a>
             <a className="social-icon" target="_blank" rel="noopener noreferrer" href="http://instagram.com">
-              <FontAwesomeIcon icon={faInstagram} />
+              <i class="fa-brands fa-instagram"></i>
             </a>
           </div>
         </div>
